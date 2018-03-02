@@ -1,5 +1,7 @@
 (setq inhibit-startup-message t)
 (setq column-number-mode t)
+(setq-default c-basic-offset 4)
+(setq-default fill-column 80)
 
 (require 'package)
 (setq package-enable-at-startup nil)
